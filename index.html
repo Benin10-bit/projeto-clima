@@ -1,99 +1,281 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Projeto clima</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <h1>Previsão do Tempo</h1>
-        <nav>
-            <ul>
-                <li><a href="#sudamerica">América do Sul</a></li>
-                <li><a href="#norteamerica">América do Norte</a></li>
-                <li><a href="#europa">Europa</a></li>
-                <li><a href="#asia">Ásia</a></li>
-                <li><a href="#africa">África</a></li>
-            </ul>
-        </nav>
+      <h1>Previsão do Tempo</h1>
+      <nav>
+        <ul>
+          <li><a href="#sudamerica">América do Sul</a></li>
+          <li><a href="#norteamerica">América do Norte</a></li>
+          <li><a href="#europa">Europa</a></li>
+          <li><a href="#asia">Ásia</a></li>
+          <li><a href="#africa">África</a></li>
+        </ul>
+      </nav>
     </header>
 
     <main>
-        <section id="sudamerica">
-            <h2>América do Sul</h2>
-            <div class="card">
-                <h3>São Paulo</h3>
-                <p>País: Brasil</p>
-                <p>Temperatura: 22°C</p>
-                <p>Condição: Chuva leve</p>
-                <p>Humidade: 80%</p>
-                <p>Vento: 10 km/h</p>
-            </div>
+  <section id="sudamerica">
+    <h2>América do Sul</h2>
+    <div class="grupocard">
+      <div class="card">
+        <h3>São Paulo</h3>
+        <p>País: Brasil</p>
+        <p>Temperatura: 22°C</p>
+        <p>Condição: Chuva leve</p>
+        <p>Humidade: 80%</p>
+        <p>Vento: 10 km/h</p>
+      </div>
 
-            <div class="card">
-                <h3>Rio de Janeiro</h3>
-                <p>País: Brasil</p>
-                <p>Temperatura: 31°C</p>
-                <p>Condição: Ensolarado</p>
-                <p>Humidade: 58%</p>
-                <p>Vento: 12 km/h</p>
-            </div>
-        </section>
+      <div class="card">
+        <h3>Rio de Janeiro</h3>
+        <p>País: Brasil</p>
+        <p>Temperatura: 31°C</p>
+        <p>Condição: Ensolarado</p>
+        <p>Humidade: 58%</p>
+        <p>Vento: 12 km/h</p>
+      </div>
 
-        <section id="norteamerica">
-            <h2>América do Norte</h2>
-            <div class="card">
-                <h3>New York</h3>
-                <p>País: Estados Unidos</p>
-                <p>Temperatura: -2°C</p>
-                <p>Condição: Neve leve</p>
-                <p>Humidade: 60%</p>
-                <p>Vento: 15 km/h</p>
-            </div>
-        </section>
+      <div class="card">
+        <h3>Buenos Aires</h3>
+        <p>País: Argentina</p>
+        <p>Temperatura: 24°C</p>
+        <p>Condição: Nublado</p>
+        <p>Humidade: 70%</p>
+        <p>Vento: 14 km/h</p>
+      </div>
 
-        <section id="europa">
-            <h2>Europa</h2>
-            <div class="card">
-                <h3>Lisboa</h3>
-                <p>País: Portugal</p>
-                <p>Temperatura: 14°C</p>
-                <p>Condição: Chuvoso</p>
-                <p>Humidade: 78%</p>
-                <p>Vento: 22 km/h</p>
-            </div>
-        </section>
+      <div class="card">
+        <h3>Santiago</h3>
+        <p>País: Chile</p>
+        <p>Temperatura: 19°C</p>
+        <p>Condição: Parcialmente nublado</p>
+        <p>Humidade: 55%</p>
+        <p>Vento: 18 km/h</p>
+      </div>
 
-        <section id="asia">
-            <h2>Ásia</h2>
-            <div class="card">
-                <h3>Tóquio</h3>
-                <p>País: Japão</p>
-                <p>Temperatura: 15°C</p>
-                <p>Condição: Céu limpo</p>
-                <p>Humidade: 52%</p>
-                <p>Vento: 7 km/h</p>
-            </div>
-        </section>
+      <div class="card">
+        <h3>Lima</h3>
+        <p>País: Peru</p>
+        <p>Temperatura: 21°C</p>
+        <p>Condição: Neblina</p>
+        <p>Humidade: 82%</p>
+        <p>Vento: 9 km/h</p>
+      </div>
+    </div>
+  </section>
 
-        <section id="africa">
-            <h2>África</h2>
-            <div class="card">
-                <h3>Cidade do Cabo</h3>
-                <p>País: África do Sul</p>
-                <p>Temperatura: 18°C</p>
-                <p>Condição: Ventoso</p>
-                <p>Humidade: 65%</p>
-                <p>Vento: 25 km/h</p>
-            </div>
-        </section>
-    </main>
+  <section id="norteamerica">
+    <h2>América do Norte</h2>
+    <div class="grupocard">
+      <div class="card">
+        <h3>New York</h3>
+        <p>País: Estados Unidos</p>
+        <p>Temperatura: -2°C</p>
+        <p>Condição: Neve leve</p>
+        <p>Humidade: 60%</p>
+        <p>Vento: 15 km/h</p>
+      </div>
+
+      <div class="card">
+        <h3>Los Angeles</h3>
+        <p>País: Estados Unidos</p>
+        <p>Temperatura: 26°C</p>
+        <p>Condição: Ensolarado</p>
+        <p>Humidade: 40%</p>
+        <p>Vento: 11 km/h</p>
+      </div>
+
+      <div class="card">
+        <h3>Toronto</h3>
+        <p>País: Canadá</p>
+        <p>Temperatura: 3°C</p>
+        <p>Condição: Nublado</p>
+        <p>Humidade: 68%</p>
+        <p>Vento: 20 km/h</p>
+      </div>
+
+      <div class="card">
+        <h3>Mexico City</h3>
+        <p>País: México</p>
+        <p>Temperatura: 23°C</p>
+        <p>Condição: Céu limpo</p>
+        <p>Humidade: 50%</p>
+        <p>Vento: 8 km/h</p>
+      </div>
+
+      <div class="card">
+        <h3>Vancouver</h3>
+        <p>País: Canadá</p>
+        <p>Temperatura: 12°C</p>
+        <p>Condição: Chuva fraca</p>
+        <p>Humidade: 75%</p>
+        <p>Vento: 17 km/h</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="europa">
+    <h2>Europa</h2>
+    <div class="grupocard">
+      <div class="card">
+        <h3>Lisboa</h3>
+        <p>País: Portugal</p>
+        <p>Temperatura: 14°C</p>
+        <p>Condição: Chuvoso</p>
+        <p>Humidade: 78%</p>
+        <p>Vento: 22 km/h</p>
+      </div>
+
+      <div class="card">
+        <h3>Madrid</h3>
+        <p>País: Espanha</p>
+        <p>Temperatura: 17°C</p>
+        <p>Condição: Ensolarado</p>
+        <p>Humidade: 45%</p>
+        <p>Vento: 10 km/h</p>
+      </div>
+
+      <div class="card">
+        <h3>Paris</h3>
+        <p>País: França</p>
+        <p>Temperatura: 11°C</p>
+        <p>Condição: Nublado</p>
+        <p>Humidade: 72%</p>
+        <p>Vento: 16 km/h</p>
+      </div>
+
+      <div class="card">
+        <h3>Berlim</h3>
+        <p>País: Alemanha</p>
+        <p>Temperatura: 9°C</p>
+        <p>Condição: Chuva leve</p>
+        <p>Humidade: 80%</p>
+        <p>Vento: 19 km/h</p>
+      </div>
+
+      <div class="card">
+        <h3>Roma</h3>
+        <p>País: Itália</p>
+        <p>Temperatura: 16°C</p>
+        <p>Condição: Parcialmente nublado</p>
+        <p>Humidade: 60%</p>
+        <p>Vento: 13 km/h</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="asia">
+    <h2>Ásia</h2>
+    <div class="grupocard">
+      <div class="card">
+        <h3>Tóquio</h3>
+        <p>País: Japão</p>
+        <p>Temperatura: 15°C</p>
+        <p>Condição: Céu limpo</p>
+        <p>Humidade: 52%</p>
+        <p>Vento: 7 km/h</p>
+      </div>
+
+      <div class="card">
+        <h3>Seul</h3>
+        <p>País: Coreia do Sul</p>
+        <p>Temperatura: 8°C</p>
+        <p>Condição: Nublado</p>
+        <p>Humidade: 55%</p>
+        <p>Vento: 14 km/h</p>
+      </div>
+
+      <div class="card">
+        <h3>Pequim</h3>
+        <p>País: China</p>
+        <p>Temperatura: 6°C</p>
+        <p>Condição: Neblina</p>
+        <p>Humidade: 65%</p>
+        <p>Vento: 12 km/h</p>
+      </div>
+
+      <div class="card">
+        <h3>Bangkok</h3>
+        <p>País: Tailândia</p>
+        <p>Temperatura: 33°C</p>
+        <p>Condição: Ensolarado</p>
+        <p>Humidade: 70%</p>
+        <p>Vento: 9 km/h</p>
+      </div>
+
+      <div class="card">
+        <h3>Dubai</h3>
+        <p>País: Emirados Árabes</p>
+        <p>Temperatura: 36°C</p>
+        <p>Condição: Muito quente</p>
+        <p>Humidade: 45%</p>
+        <p>Vento: 20 km/h</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="africa">
+    <h2>África</h2>
+    <div class="grupocard">
+      <div class="card">
+        <h3>Cidade do Cabo</h3>
+        <p>País: África do Sul</p>
+        <p>Temperatura: 18°C</p>
+        <p>Condição: Ventoso</p>
+        <p>Humidade: 65%</p>
+        <p>Vento: 25 km/h</p>
+      </div>
+
+      <div class="card">
+        <h3>Cairo</h3>
+        <p>País: Egito</p>
+        <p>Temperatura: 29°C</p>
+        <p>Condição: Ensolarado</p>
+        <p>Humidade: 35%</p>
+        <p>Vento: 18 km/h</p>
+      </div>
+
+      <div class="card">
+        <h3>Nairóbi</h3>
+        <p>País: Quênia</p>
+        <p>Temperatura: 22°C</p>
+        <p>Condição: Parcialmente nublado</p>
+        <p>Humidade: 60%</p>
+        <p>Vento: 12 km/h</p>
+      </div>
+
+      <div class="card">
+        <h3>Lagos</h3>
+        <p>País: Nigéria</p>
+        <p>Temperatura: 30°C</p>
+        <p>Condição: Chuva isolada</p>
+        <p>Humidade: 78%</p>
+        <p>Vento: 10 km/h</p>
+      </div>
+
+      <div class="card">
+        <h3>Casablanca</h3>
+        <p>País: Marrocos</p>
+        <p>Temperatura: 20°C</p>
+        <p>Condição: Nublado</p>
+        <p>Humidade: 68%</p>
+        <p>Vento: 16 km/h</p>
+      </div>
+    </div>
+  </section>
+</main>
+
 
     <footer>
-        <p>© 2026 Previsão do Tempo — Dados de exemplo</p>
-        <p>Fonte: Dados fictícios para demonstração</p>
+      <p>© 2026 Previsão do Tempo — Tempo real</p>
+      <p>Fonte: IFRN meteorologia</p>
     </footer>
-
-</body>
+  </body>
 </html>
